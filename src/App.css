@@ -1,0 +1,111 @@
+/*Main app*/
+
+
+#content{
+  margin:24px 16px;
+  padding:20px;
+
+
+}
+/*Sidebar*/
+.sider{
+  height: 100vh;
+  position: sticky !important;
+  left: 0px;
+  bottom: 0px;
+  top:0px;
+}
+.logo{
+  margin: 40px 0px;
+  font-size: 1.5rem;
+
+}
+.triger-btn{
+  font-size: 16px;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+.menu-bar{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+  font-weight: 500;
+}
+.ant-menu-item-selected{
+ /* background-color: rgb(255, 20, 83) !important;*/
+  background-color:#7DA0FA !important;
+  color: #fff !important;
+}
+
+/*header*/
+
+.header-icon{
+  background: #ffffff;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #5b97fd;
+  cursor: pointer;
+
+}
+/*Button,cnd color*/
+.ant-btn:hover{
+  color: #7978E9 !important;
+  border-radius:#F37973 !important;
+
+}
+
+.ant-btn-primary{
+  
+  border-color:#7DA0FA!important;
+
+}
+.ant-btn-primary:hover{
+  color: #f7f7f7 !important;
+  background-color:#fe8886 !important;
+
+}
+.primary--color{
+  color: #77f5f9!important;
+  
+
+}
+
+.primary--light--color{
+  color: #caf6f7 !important;
+  
+}
+.secondary--color{
+  color: rgb(158, 158, 241)!important;
+ 
+
+}
+.light--color{
+  color: #dfe5f1 !important;
+  
+}
+.gray--color{
+  color: #9eb1d8 !important;
+  
+}
+
+.space-align-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.space-align-block {
+  flex: none;
+  margin: 8px 4px;
+  padding: 4px;
+  border: 1px solid #fe8886;
+}
+.space-align-block .mock-block {
+  display: inline-block;
+  padding: 32px 8px 16px;
+  background: rgba(150, 150, 150, 0.2);
+}
+
