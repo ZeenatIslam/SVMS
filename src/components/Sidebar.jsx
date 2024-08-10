@@ -35,7 +35,7 @@ function Sidebar() {
         <Menu.Item key="1" icon={<PiMonitor />}>
           <Link to="/">Dashboard</Link>
         </Menu.Item>    
-        <Menu.Item key="1" icon={<FaMapMarkedAlt />}>
+        <Menu.Item key="2" icon={<FaMapMarkedAlt />}>
           <Link to="/Location_Tracking">Location Tracking</Link>
         </Menu.Item>    
         <Menu.Item key="3" icon={<BsFillFuelPumpFill />}>
